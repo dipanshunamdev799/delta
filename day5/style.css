@@ -1,0 +1,18 @@
+h2{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 50px;    
+    letter-spacing: 1px;
+    font-family: "Luto",sans-serif;
+}
+p{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    
+}
+button{
+    background-color: blue;
+    color: white;
+}

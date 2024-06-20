@@ -1,0 +1,40 @@
+.main{
+    text-align: center;
+}
+h3{
+    color: blue;
+}
+.main h3{
+    color: red;
+}
+#top{
+    color:green;
+}
+#top + h3{
+    /* sibling h3 of #top */
+    background-color: black;
+}
+/* h3:hover{
+    opacity: 0;
+} */
+*{
+    font-family: "Luto",sans-serif;
+    font-size: 20px;
+}
+.main > h3{
+    /* direct descendant of h2       */
+    line-height: 4rem;
+}
+input[type="text"]{
+    background-color: green;
+}
+input[type="text"]:focus{
+    background-color: black;
+    color:white
+}
+h3:active{
+    font-weight: 100;
+}
+h3::first-letter{
+    font-size: 40px;
+}
